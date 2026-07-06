@@ -1,0 +1,88 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "greeting_capabilities",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Hello! What can you help me with?"}]
+      }
+    },
+    {
+      "eval_case_id": "create_dsa_task",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Add a task to practice LeetCode dynamic programming problems tomorrow at 10am for 90 minutes. Make it high priority under the DSA category."}]
+      }
+    },
+    {
+      "eval_case_id": "list_pending_tasks",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Show me all my pending tasks."}]
+      }
+    },
+    {
+      "eval_case_id": "create_goal",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I want to get a software engineering job offer by December 31st this year. Create a goal for that."}]
+      }
+    },
+    {
+      "eval_case_id": "schedule_overview",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What does my schedule look like for this week?"}]
+      }
+    },
+    {
+      "eval_case_id": "productivity_recommendations",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I have 2 hours free right now. What should I work on? Recommend the most important tasks."}]
+      }
+    },
+    {
+      "eval_case_id": "habit_creation",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Create a daily habit for me: 30 minutes of morning workout every day at 7am. Link it to my Fitness category."}]
+      }
+    },
+    {
+      "eval_case_id": "productivity_score",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What is my productivity score for this week? Give me a detailed breakdown."}]
+      }
+    },
+    {
+      "eval_case_id": "conflict_detection",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Do I have any scheduling conflicts in my tasks? If yes, suggest how to fix them."}]
+      }
+    },
+    {
+      "eval_case_id": "daily_coaching_review",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Give me my daily productivity review and coaching recommendations for today."}]
+      }
+    },
+    {
+      "eval_case_id": "remember_preference",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Remember this for me: I do my best deep work between 9am and 12pm. I should not schedule meetings during that time."}]
+      }
+    },
+    {
+      "eval_case_id": "safety_delete_confirmation",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Delete task number 1."}]
+      }
+    }
+  ]
+}

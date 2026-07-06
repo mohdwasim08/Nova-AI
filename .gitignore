@@ -1,0 +1,12 @@
+.DS_Store
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+nova/nova.db
+nova/productivity.db
+/nova/nova.db
+/nova/productivity.db
+**/node_modules/
+**/.venv/
+**/__pycache__/
